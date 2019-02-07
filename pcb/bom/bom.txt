@@ -1,0 +1,76 @@
+-*- mode:org -*-
+
+# Opt101.lst
+| ref     | value                    |
+|---------+--------------------------|
+| C1      | 10uF                     |
+| C2      | 10uF                     |
+| C3      | 10uF                     |
+| C4      | 10uF                     |
+| C5      | 10uF                     |
+| C6      | 10uF                     |
+| C7      | 10uF                     |
+| C8      | 0.1uF                    |
+| D1      | LED                      |
+| E1      | ENCODER_62P              |
+| K1      | DISPLAY                  |
+| P1      | OUT_A                    |
+| P2      | OUT_B                    |
+| P3      | OUT_C                    |
+| P4      | OUT_D                    |
+| P5      | +24VDC                   |
+| P6      | BNC_IN                   |
+| P7      | SWITCH_IN                |
+| R1      | 150                      |
+| R2      | 150                      |
+| R3      | 150                      |
+| R4      | 150                      |
+| R5      | 1.96k                    |
+| R6      | 150                      |
+| RCD1    | RCD-24                   |
+| RCD2    | RCD-24                   |
+| RCD3    | RCD-24                   |
+| RCD4    | RCD-24                   |
+| REG1    | CONV_DC_DC               |
+| SHIELD1 | ARDUINO_MEGA_SHIELD_FULL |
+| U1      | SSR_DC_6PIN              |
+| U2      | SSR_DC_6PIN              |
+| U3      | SSR_DC_6PIN              |
+| U4      | SSR_DC_6PIN              |
+| U5      | MAX6817                  |
+
+# Bill of Materials
+| ! | part    | description                                                     | vendor      | part number               | quantity |   cost |
+|---+---------+-----------------------------------------------------------------+-------------+---------------------------+----------+--------|
+|   | PCB     | arduino_current_controller                                      | pcbuniverse | v1.2                      |        1 |   1.00 |
+|   | C1-7    | CAP CER 10UF 50V 10% X7S 1210                                   | digikey     | 445-4536-1-ND             |        7 |   1.24 |
+|   | C8      | CAP CER 0.1UF 50V 10% X7R 1210                                  | digikey     | 478-3586-1-ND             |        1 |   0.39 |
+|   | D1      | LED GREEN CLEAR 0805 SMD                                        | digikey     | 160-1179-1-ND             |        1 |   0.35 |
+|   | E1      | ENCODER OPT LO TORQ PB 16POS PC                                 | digikey     | GH7296-ND                 |        1 |   7.47 |
+|   | E1      | KNOB CLR/MATTE .50"DIA 6MM SHAFT                                | digikey     | 226-3092-ND               |        1 |   5.36 |
+|   | K1      | LCD SERIAL 4X20 SIDE WHT BKLT                                   | digikey     | NHD-0420D3Z-NSW-BBW-V3-ND |        1 |  25.90 |
+|   | K1      | Jumper Wire - 0.1", 3-pin, 4"                                   | sparkfun    | PRT-10363                 |        1 |   0.95 |
+|   | K1      | CONN HEADER 50POS .100" SGL GOLD                                | digikey     | SAM1031-50-ND             |        1 |   3.33 |
+|   | P1-4    | TERMINAL BLOCK 3.5MM 2POS PCB                                   | digikey     | ED1514-ND                 |        4 |   0.63 |
+|   | P5      | CONN PWR JACK DC 2.5X5.5 8A T/H                                 | digikey     | CP-063BH-ND               |        1 |   1.78 |
+|   | P5      | POWER SUPPLY SWITCHER 101W 24V                                  | digikey     | 271-2731-ND               |        1 |  81.38 |
+|   | P6      | CONN BNC JACK R/A 75 OHM PCB                                    | digikey     | ACX1655-ND                |        1 |  11.10 |
+|   | P7      | CONN HEADER 2POS .100 VERT GOLD                                 | digikey     | WM4800-ND                 |        1 |   0.88 |
+|   | P7      | UNSHIELDED 22AWG 2 COND                                         | digikey     | W120-100-ND               |        1 |   0.20 |
+|   | P7      | CONN HOUSING 2POS .100 W/LATCH                                  | digikey     | WM2900-ND                 |        1 |   0.49 |
+|   | P7      | CONN HOUSING MALE 2POS .100                                     | digikey     | WM2533-ND                 |        1 |   0.79 |
+|   | P7      | CONN TERM FEMALE 22-24AWG GOLD                                  | digikey     | WM2570-ND                 |        2 |   0.34 |
+|   | P7      | CONN TERM MALE 22-24AWG GOLD                                    | digikey     | WM2567-ND                 |        2 |   0.37 |
+|   | P7      | Pendant Switch with Cable, Push-Button, 1 NO, 5 Amps at 120V AC | mcmaster    | 6944K11                   |        1 |  18.89 |
+|   | R1-4,6  | RES 150 OHM 1/2W 1% 1210 SMD                                    | digikey     | P150AACT-ND               |        5 |   0.51 |
+|   | R5      | RES 1.96K OHM 1/2W 1% 1210 SMD                                  | digikey     | 541-1.96KAACT-ND          |        1 |   2.89 |
+|   | RCD1-4  | LED SUPP CC BUCK 3-31V 1.2A 6DIP                                | digikey     | 945-1132-ND               |        4 |  15.32 |
+|   | RCD1-4  | CONN SOCKET RCPT .014-.026 30AU                                 | digikey     | A32374-ND                 |       24 |   0.77 |
+|   | REG1    | CONV DC/DC 1A 12V OUT SIP VERT                                  | digikey     | 945-1392-5-ND             |        1 |   8.79 |
+|   | SHIELD1 | BOARD MCU MEGA2560                                              | digikey     | 1050-1018-ND              |        1 |  51.91 |
+|   | SHIELD1 | CONN HDR VERT 50POS .100" SNGL                                  | digikey     | SAM1055-50-ND             |        4 |   3.42 |
+|   | U1-4    | RELAY SSR SPST SGL 2.5A 6SMD GW                                 | digikey     | 516-2367-5-ND             |        4 |   6.05 |
+|   | U5      | IC DEBOUNCER SWITCH DUAL SOT23-6                                | digikey     | MAX6817EUT+TCT-ND         |        1 |   5.25 |
+|---+---------+-----------------------------------------------------------------+-------------+---------------------------+----------+--------|
+| # | total   |                                                                 |             |                           |          | 353.12 |
+#+TBLFM: @31$7=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N

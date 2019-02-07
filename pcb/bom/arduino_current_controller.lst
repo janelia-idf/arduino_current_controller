@@ -1,0 +1,40 @@
+eeschema (2013-jul-07)-stable  >> Creation date: Wed 28 May 2014 04:52:57 PM EDT
+#Cmp ( order = Reference )
+| C1         10uF        
+| C2         10uF        
+| C3         10uF        
+| C4         10uF        
+| C5         10uF        
+| C6         10uF        
+| C7         10uF        
+| C8         0.1uF       
+| D1         LED         
+| E1         ENCODER_62P 
+| K1         DISPLAY     
+| P1         OUT_A       
+| P2         OUT_B       
+| P3         OUT_C       
+| P4         OUT_D       
+| P5         +24VDC      
+| P6         BNC_IN      
+| P7         SWITCH_IN   
+| R1         150         
+| R2         150         
+| R3         150         
+| R4         150         
+| R5         1.96k       
+| R6         150         
+| RCD1       RCD-24      
+| RCD2       RCD-24      
+| RCD3       RCD-24      
+| RCD4       RCD-24      
+| REG1       CONV_DC_DC  
+| SHIELD1    ARDUINO_MEGA_SHIELD_FULL
+| U1         SSR_DC_6PIN 
+| U2         SSR_DC_6PIN 
+| U3         SSR_DC_6PIN 
+| U4         SSR_DC_6PIN 
+| U5         MAX6817     
+#End Cmp
+
+#End List

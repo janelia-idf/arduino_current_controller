@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arduino Current Controller</title>
+    <meta http-equiv="pragma" content="no-cache">
+    <link rel="stylesheet" href="static/jquery-ui-1.10.4.custom.min.css?v=1" type="text/css" />
+    <link rel="stylesheet" href="static/style.css?v=8" type="text/css" />
+    <script type="text/javascript" src="/static/js/jquery/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="/static/js/jquery/jquery-ui-1.10.4.custom.min.js"></script>
+    <script type="text/javascript" src="/static/js/sijax/sijax.js"></script>
+    <script type="text/javascript">
+      {{ g.sijax.get_js()|safe }}
+    </script>
+  </head>
+
+  <body>
+    <div class="center">
+      <h2>Intensity</h2>
+      <div class="display" id="displayPercentCapacity"></div>
+      <div class="slider" id="sliderPercentCapacity"></div>
+    </div>
+    <div class="center">
+      <button class="button" id="turnOnAll">Turn On All</button>
+      <button class="button" id="turnOffAll">Turn Off All</button>
+    </div>
+    <div class="center">
+      <h2>Duration On</h2>
+      <div class="display" id="displayDurationOn"></div>
+      <div class="slider" id="sliderDurationOn"></div>
+
+      <h2>Duration Off</h2>
+      <div class="display" id="displayDurationOff"></div>
+      <div class="slider" id="sliderDurationOff"></div>
+
+      <button class="button" id="startPwmAll">Start PWM All</button>
+      <button class="button" id="stopPwmAll">Stop PWM All</button>
+    </div>
+    <script type="text/javascript" src="/static/js/scripts/script.js"></script>
+  </body>
+</html>

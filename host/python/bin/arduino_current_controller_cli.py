@@ -1,0 +1,3 @@
+#!python
+from arduino_current_controller import arduinoCurrentControllerCli
+arduinoCurrentControllerCli()

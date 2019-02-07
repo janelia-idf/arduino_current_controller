@@ -1,0 +1,25 @@
+-*- mode:org -*-
+
+# Bill of Materials
+| ! | description                                                                                                    | vendor   | part number | quantity |  cost |
+|---+----------------------------------------------------------------------------------------------------------------+----------+-------------+----------+-------|
+|   | 18-8 Stainless Steel Socket Head Cap Screw, 4-40 Thread, 1-1/2" Length                                         | mcmaster | 92196A119   |        4 |  0.09 |
+|   | 18-8 Stainless Steel Socket Head Cap Screw, 4-40 Thread, 1" Length                                             | mcmaster | 92196A115   |        4 |  0.06 |
+|   | 300 Series Stainless Steel Mil Spec Flat Washer, Number 4 Size, .25" OD, .02"-.03" Thickness, NASM/MS15795-803 | mcmaster | 98019A309   |        4 |  0.01 |
+|   | Nylon 6/6 General Purpose Flat Washer, Number 4 Screw Size, .21" OD, .04"-.06" Thick                           | mcmaster | 90295A340   |        4 |  0.05 |
+|   | Nylon Unthreaded Spacer, 3/16" OD, 3/16" Length, #4 Screw Size                                                 | mcmaster | 94639A615   |        4 |  0.07 |
+|   | 18-8 Stainless Steel Broach Style Captive Nut, 4-40 Thread Size, .060" Minimum Panel Thickness                 | mcmaster | 94648A320   |        8 |  0.40 |
+|   | Optically Clear Cast Acrylic Sheet, 1/8" Thick, 12" x 12"                                                      | mcmaster | 8560K239    |        1 |  8.63 |
+|   | Optically Clear Cast Acrylic Sheet, 1/4" Thick, 12" x 12"                                                      | mcmaster | 8560K354    |        1 | 16.36 |
+|   | 18-8 Stainless Steel Broach Style Captive Nut, 6-32 Thread Size, .060" Minimum Panel Thickness                 | mcmaster | 94648A330   |        6 |  0.40 |
+|   | 18-8 Stainless Steel Socket Head Cap Screw, 6-32 Thread, 1/2" Length                                           | mcmaster | 92196A148   |        4 |  0.06 |
+|   | 18-8 Stainless Steel Socket Head Cap Screw, 6-32 Thread, 3/8" Length                                           | mcmaster | 92196A146   |        4 |  0.06 |
+|   | 300 Series Stainless Steel NAS 620 Flat Washer, Number 6 Size, .27" OD, .02"-.04" Thickness, Dash Number C6    | mcmaster | 90945A716   |        4 |  0.04 |
+|   | CONN JACK 2.5X5.5MM VERT PWR PNL                                                                               | digikey  | CP-064B-ND  |        1 |  2.14 |
+|   | TERMINAL PB 4CIRC 2.50" MOUNT                                                                                  | digikey  | GC400-ND    |        1 |  2.96 |
+|   | UNSHIELDED 22AWG 2 COND                                                                                        | digikey  | W120-100-ND |        1 |  0.20 |
+|   | UNSHIELDED 22AWG UL2464 4 COND                                                                                 | digikey  | W122-100-ND |        1 |  0.20 |
+|   | SCOTCH CODE REFILL MULTI-COLOR                                                                                 | digikey  | SCP493-ND   |        1 |  1.00 |
+|---+----------------------------------------------------------------------------------------------------------------+----------+-------------+----------+-------|
+| # | total                                                                                                          |          |             |          | 37.85 |
+#+TBLFM: @19$6=(@I$quantity..@II$quantity)*(@I$cost..@II$cost);%.2f;N
