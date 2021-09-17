@@ -24,7 +24,7 @@ setup(
     name='arduino_current_controller',
     version='0.1.0',
     author='Peter Polidoro',
-    author_email='peterpolidoro@gmail.com',
+    author_email='peter@polidoro.io',
     packages=['arduino_current_controller',
               'arduino_current_controller/webserver',
               ],
